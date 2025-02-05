@@ -1,4 +1,102 @@
-c{
-    margin-top: 100px;
-    margin-bottom: 1rem;
+
+.photo {
+    margin-left: 5cm;
+    margin-top: 2cm;
+    width: 7cm;
+    height: 7cm;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 20px;
+    justify-content: center;
+}
+.photo img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.personal-info {
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-details h1 {
+    margin-left: 1cm;
+    font-size: 1.5cm;
+    justify-content: center;
+}
+.personal-details p {
+    margin-left: 1.3cm;
+    font-size: 1cm;
+    font-weight: 100;
+    justify-content: center;
+}
+.personal-info::after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+.contact-details {
+    margin-top: 1cm;
+    display: flex;
+    color: royalblue;
+    padding-left: 2cm;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-details a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 15px; /* Adjust the spacing between the links */
+}
+.contact-details img{
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    margin-right: 5px; /* Space between icon and number */
+}
+.main p{
+    padding-left: 5cm;
+    padding-right: 5cm;
+    padding-top: 1cm;
+}
+.career{
+    position: left;
+    right: 0;
+    width: auto;
+    padding-left:2cm;
+    background-color: transparent; /* Optional: Add a background color */
+    border-right: transparent; /* Optional: Add a border */
+    padding-left: 5cm;
+    padding-right: 5cm;
+    padding-top: 1cm;
+}
+.technical-skills {
+    display: inline-block;
+    width: 50%; /* Adjust as needed */
+    padding-left: 5cm;
+    padding-right: 5cm;
+    vertical-align: top; /* Align at the top */
+}
+.soft-skills {
+    display: inline-block;
+    width: 45%; /* Adjust as needed */
+    padding-left: 5cm;
+    padding-right: 5cm;
+    vertical-align: top; /* Align at the top */
+}
+.education{
+    padding-left: 5cm;
+    padding-right: 5cm;
+    width: auto;
+}
+.achievements{
+    padding-left: 5cm;
+    padding-right: 5cm;
+    width: auto;
 }

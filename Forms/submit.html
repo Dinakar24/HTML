@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submitted Name</title>
+        <style>
+        #fullname {
+            color: royalblue;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Full Name</h2>
+        <div id="fullName"></div>
+        
+        <script>
+        // Get the query parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const firstName = urlParams.get('firstname');
+        const secondName = urlParams.get('secondname');
+        
+        // Display the full name
+        document.getElementById('fullName').textContent = firstName + " " + secondName;
+        </script>
+    </body>
+</html>
